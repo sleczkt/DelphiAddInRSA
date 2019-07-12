@@ -99,6 +99,10 @@
             <Form>MainForm</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="PinnedColumnBaseU.pas"/>
+        <DCCReference Include="CommonU.pas"/>
+        <DCCReference Include="FixedColumnBaseU.pas"/>
+        <DCCReference Include="ColumnBaseU.pas"/>
         <RidlCompile Include="DelphiAddInLib.ridl"/>
         <BuildConfiguration Include="Debug">
             <Key>Cfg_2</Key>

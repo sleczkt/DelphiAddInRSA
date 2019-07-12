@@ -15,18 +15,25 @@ object MainForm: TMainForm
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 360
-    Top = 91
+    Left = 351
+    Top = 59
     Width = 21
     Height = 13
     Caption = 'Bars'
   end
   object Label2: TLabel
-    Left = 360
-    Top = 35
+    Left = 351
+    Top = 19
     Width = 30
     Height = 13
     Caption = 'Nodes'
+  end
+  object Label3: TLabel
+    Left = 350
+    Top = 112
+    Width = 31
+    Height = 13
+    Caption = 'Label3'
   end
   object RadioButton1: TRadioButton
     Left = 410
@@ -55,7 +62,7 @@ object MainForm: TMainForm
   end
   object Edit1: TEdit
     Left = 440
-    Top = 88
+    Top = 56
     Width = 121
     Height = 21
     TabOrder = 3
@@ -70,7 +77,7 @@ object MainForm: TMainForm
   end
   object Edit2: TEdit
     Left = 440
-    Top = 32
+    Top = 16
     Width = 121
     Height = 21
     TabOrder = 5

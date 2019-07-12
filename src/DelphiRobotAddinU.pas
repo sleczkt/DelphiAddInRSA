@@ -60,13 +60,12 @@ begin
 
         MainForm:= TMainForm.Create( Application );
         With MainForm do
-		  begin
-		    SetRobotApplication( robotApp );
+		      begin
+		        SetRobotApplication( robotApp );
             ShowModal;
             Free;
-		  end;
+		      end;
         MainForm:= nil;
-
 
       end;
   end;
